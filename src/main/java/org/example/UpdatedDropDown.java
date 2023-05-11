@@ -23,10 +23,7 @@ public class UpdatedDropDown {
         System.out.println(driver.findElements(By.cssSelector("input[type='checkbox']")).size());
         driver.findElement(By.id("divpaxinfo")).click();
         Thread.sleep(2000L);
-//        driver.findElement(By.id("hrefIncAdt")).click();
-//        driver.findElement(By.id("hrefIncAdt")).click();
-//        driver.findElement(By.id("hrefIncAdt")).click();
-//        driver.findElement(By.id("hrefIncAdt")).click();
+
         System.out.println(driver.findElement(By.id("divpaxinfo")).getText());
 
 
